@@ -1,10 +1,11 @@
 [user]
-    name = Dan PElensky
-    email = dan@pelensky.com
+    name = Chris Cooper
+    email = cjcooper252@gmail.com
 [push]
     default = simple
 [core]
-	excludesfile = /Users/dan/.gitignore
+	excludesfile = /Users/chriscooper/.gitignore
+
     editor = vim
     ;editor = "NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim"
 [color]

@@ -22,7 +22,8 @@ plugins=(git osx tmux github fasd history-substring-search zsh-syntax-highlighti
 export ZSH=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-export PATH=$PATH:"/usr/local/bin:/usr/local/bin/git:/usr/local/heroku/bin:/Users/dan/.rvm/gems/ruby-2.3.1/bin:/Users/dan/.rvm/gems/ruby-2.3.1@global/bin:/Users/dan/.rvm/rubies/ruby-2.3.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/dan/.rvm/bin"
+export PATH=$PATH:"/usr/local/bin:/usr/local/bin/git:/usr/local/heroku/bin:/Users/chriscooper/.rvm/gems/ruby-2.3.1/bin:/Users/chriscooper/.rvm/gems/ruby-2.3.1@global/bin:/Users/chriscooper/.rvm/rubies/ruby-2.3.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/chriscooper/.rvm/bin"
+
 
 export MANPAGER="col -b | vim -c 'set ft=man ts=8 nomod nolist nonu' -c 'nnoremap i <nop>' -"
 
