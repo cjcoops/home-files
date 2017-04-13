@@ -29,7 +29,7 @@ export MANPAGER="col -b | vim -c 'set ft=man ts=8 nomod nolist nonu' -c 'nnorema
 export EDITOR="/usr/bin/vim"
 
 # sets vi keybinding
-bindkey -v
+bindkey -e
 
 alias cdh='cd ~/.homesick/repos/home-files/home'
 alias hup='cdh && sh ~/.homesick/repos/home-files/commit.sh && source ~/.zshrc && cd - && clear'
