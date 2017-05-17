@@ -60,3 +60,9 @@ alias roigrok="ngrok -subdomain=roi 8000"
 
 #source $(brew --prefix)/share/antigen/antigen.zsh
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/chriscooper/Desktop/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/chriscooper/Desktop/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/chriscooper/Desktop/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/chriscooper/Desktop/google-cloud-sdk/completion.zsh.inc'; fi
