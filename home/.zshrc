@@ -1,13 +1,7 @@
-#ZSH_THEME="dstufft"
 ZSH_THEME="materialshell"
 
-alias rake="noglob rake"
-
-alias serve="jekyll serve"
-
-alias record="asciinema rec"
-
-alias tree="tree -I '.git|node_modules|bower_components'"
+# Angular cli
+alias ngs="ng serve"
 
 # Mac Helpers
 alias show_hidden="defaults write com.apple.finder AppleShowAllFiles YES && killall Finder"
