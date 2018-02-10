@@ -1,4 +1,5 @@
-ZSH_THEME="dstufft"
+#ZSH_THEME="dstufft"
+ZSH_THEME="materialshell"
 
 alias rake="noglob rake"
 
