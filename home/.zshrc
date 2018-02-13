@@ -3,6 +3,10 @@ ZSH_THEME="materialshell"
 # Angular cli
 alias ngs="ng serve"
 
+# Serverless
+alias sd="sls deploy"
+alias sdf="sls deploy function -f"
+
 # Mac Helpers
 alias show_hidden="defaults write com.apple.finder AppleShowAllFiles YES && killall Finder"
 alias hide_hidden="defaults write com.apple.finder AppleShowAllFiles NO && killall Finder"
